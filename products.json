@@ -1,0 +1,129 @@
+{
+  "company": {
+    "name": "Fang Jiang",
+    "chineseName": "方健",
+    "tagline": "Premium Stainless Steel Tableware Manufacturer",
+    "description": "Fang Jiang is a professional stainless steel tableware manufacturer based in China, owning a 5,000 square meter factory. We specialize in producing high-quality stainless steel drinkware, cutlery, lunch boxes, and cookware with competitive pricing and exceptional service.",
+    "advantages": [
+      "5,000 sqm Own Factory",
+      "Competitive Factory Direct Pricing",
+      "Premium Quality Assurance",
+      "Thoughtful Customer Service",
+      "Free Samples Available"
+    ]
+  },
+  "contact": {
+    "wechat": "15220442258",
+    "email": "niubiwahaha@gmail.com",
+    "phone": "+86 15220442258"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stainless Steel Tumblers",
+      "chineseName": "不锈钢水杯",
+      "description": "Double-wall vacuum insulated tumblers keeping drinks hot or cold for hours",
+      "image": "images/tumbler.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dinnerware Sets",
+      "chineseName": "不锈钢餐具",
+      "description": "Complete dinnerware sets including plates, bowls, and serving dishes",
+      "image": "images/dinnerware.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cutlery & Flatware",
+      "chineseName": "刀叉勺筷",
+      "description": "Premium stainless steel knives, forks, spoons, and chopsticks",
+      "image": "images/cutlery.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lunch Boxes",
+      "chineseName": "不锈钢饭盒",
+      "description": "Leak-proof and durable stainless steel lunch containers",
+      "image": "images/lunchbox.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cookware & Bowls",
+      "chineseName": "锅盆碗",
+      "description": "Professional-grade stainless steel pots, basins, and mixing bowls",
+      "image": "images/cookware.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Insulated Coffee Tumbler 500ml",
+      "description": "Double-wall vacuum insulation keeps drinks hot for 6h, cold for 12h",
+      "image": "images/products/tumbler-500ml.jpg"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Travel Mug with Lid 350ml",
+      "description": "Leak-proof lid design perfect for commuting",
+      "image": "images/products/travel-mug.jpg"
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Dinner Plate Set (4pcs)",
+      "description": "Food-grade 304 stainless steel, dishwasher safe",
+      "image": "images/products/plate-set.jpg"
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Serving Bowl Large",
+      "description": "Perfect for family meals and gatherings",
+      "image": "images/products/serving-bowl.jpg"
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "name": "Western Cutlery Set 24pcs",
+      "description": "Includes 6 knives, 6 forks, 6 spoons, 6 teaspoons",
+      "image": "images/products/cutlery-24pcs.jpg"
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "name": "Chopsticks Set (5 pairs)",
+      "description": "Ergonomic design with non-slip tips",
+      "image": "images/products/chopsticks.jpg"
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "name": "Compartment Lunch Box",
+      "description": "3-compartment design for balanced meals",
+      "image": "images/products/lunch-box-3comp.jpg"
+    },
+    {
+      "id": 8,
+      "categoryId": 4,
+      "name": "Kids Lunch Box",
+      "description": "Smaller size perfect for children",
+      "image": "images/products/kids-lunchbox.jpg"
+    },
+    {
+      "id": 9,
+      "categoryId": 5,
+      "name": "Stock Pot 20cm",
+      "description": "Heavy-duty base for even heat distribution",
+      "image": "images/products/stock-pot.jpg"
+    },
+    {
+      "id": 10,
+      "categoryId": 5,
+      "name": "Mixing Bowl Set (3pcs)",
+      "description": "Nested design for space-saving storage",
+      "image": "images/products/mixing-bowls.jpg"
+    }
+  ]
+}

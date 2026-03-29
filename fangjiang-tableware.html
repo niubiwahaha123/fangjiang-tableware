@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fang Jiang - Premium Stainless Steel Tableware Manufacturer</title>
+    <meta name="description" content="Fang Jiang is a professional stainless steel tableware manufacturer with 5000 sqm factory. We produce high-quality tumblers, cutlery, lunch boxes, and cookware. Factory direct pricing, free samples available.">
+    <meta name="keywords" content="stainless steel tableware, tumblers, cutlery, lunch box, cookware, China manufacturer, Fang Jiang">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav {
+            background: #fff;
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .logo span {
+            color: #3498db;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 150px 5% 100px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background: #fff;
+            color: #3498db;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .hero-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Products Section */
+        .products {
+            padding: 80px 5%;
+            background: #f9f9f9;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .category-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .category-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .category-info {
+            padding: 1.5rem;
+        }
+
+        .category-info h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .category-info p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Products Grid */
+        .products-showcase {
+            padding: 80px 5%;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 2rem;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 1rem;
+        }
+
+        .product-info h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .product-info p {
+            color: #666;
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        /* About Section */
+        .about {
+            padding: 80px 5%;
+            background: #2c3e50;
+            color: white;
+        }
+
+        .about-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .advantage-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+        }
+
+        .advantage-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #3498db;
+        }
+
+        .advantage-item p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 80px 5%;
+            background: #f9f9f9;
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-card h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-card p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .contact-note {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #3498db;
+            color: white;
+            border-radius: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a252f;
+            color: white;
+            text-align: center;
+            padding: 2rem 5%;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-size: 3rem;
+        }
+
+        .product-placeholder {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Fang<span>Jiang</span></div>
+            <ul class="nav-links">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 id="hero-title">Fang Jiang</h1>
+        <p id="hero-tagline">Premium Stainless Steel Tableware Manufacturer</p>
+        <a href="#contact" class="hero-btn">Get Free Samples</a>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">Professional stainless steel tableware with factory direct pricing</p>
+        
+        <div id="categories-container" class="categories-grid">
+            <div class="loading">Loading products...</div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <p style="color: #666; font-size: 1.1rem;">
+                📦 We have 30+ more products in our catalog. 
+                <a href="#contact" style="color: #3498db; text-decoration: underline;">Contact us</a> to get the complete product list!
+            </p>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="products-showcase">
+        <h2 class="section-title">Featured Products</h2>
+        <p class="section-subtitle">Explore our best-selling items</p>
+        
+        <div id="products-container" class="products-grid">
+            <div class="loading">Loading featured products...</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Why Choose Fang Jiang?</h2>
+            <p id="company-description" style="text-align: center; max-width: 800px; margin: 0 auto; opacity: 0.9; line-height: 1.8;">
+            </p>
+            
+            <div id="advantages-container" class="about-grid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Contact us for inquiries, samples, or customization</p>
+            
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>WeChat</h3>
+                    <p id="wechat-id">Loading...</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p id="email-address">Loading...</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p id="phone-number">Loading...</p>
+                </div>
+            </div>
+            
+            <div class="contact-note">
+                ✨ <strong>Free Samples Available!</strong> Contact us today to request your complimentary samples.
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Fang Jiang. All rights reserved. | Premium Stainless Steel Tableware Manufacturer</p>
+    </footer>
+
+    <!-- JavaScript for Dynamic Content Loading -->
+    <script>
+        // Load data from JSON file
+        let companyData = null;
+
+        async function loadCompanyData() {
+            try {
+                const response = await fetch('products.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load product data');
+                }
+                companyData = await response.json();
+                renderWebsite();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('categories-container').innerHTML = 
+                    '<div class="loading">Unable to load products. Please make sure products.json is in the same folder.</div>';
+            }
+        }
+
+        function renderWebsite() {
+            if (!companyData) return;
+
+            // Render Company Info
+            document.getElementById('hero-title').textContent = companyData.company.name;
+            document.getElementById('hero-tagline').textContent = companyData.company.tagline;
+            document.getElementById('company-description').textContent = companyData.company.description;
+
+            // Render Contact Info
+            document.getElementById('wechat-id').textContent = companyData.contact.wechat;
+            document.getElementById('email-address').textContent = companyData.contact.email;
+            document.getElementById('phone-number').textContent = companyData.contact.phone;
+
+            // Render Advantages
+            const advantagesContainer = document.getElementById('advantages-container');
+            advantagesContainer.innerHTML = companyData.company.advantages.map(advantage => `
+                <div class="advantage-item">
+                    <h3>✓ ${advantage.split(' ')[0]}</h3>
+                    <p>${advantage.substring(advantage.indexOf(' ') + 1)}</p>
+                </div>
+            `).join('');
+
+            // Render Categories
+            const categoriesContainer = document.getElementById('categories-container');
+            categoriesContainer.innerHTML = companyData.categories.map(category => `
+                <div class="category-card">
+                    <div class="category-image">
+                        ${category.image ? `<img src="${category.image}" alt="${category.name}" onerror="this.parentElement.innerHTML='🍽️'">` : '🍽️'}
+                    </div>
+                    <div class="category-info">
+                        <h3>${category.name}</h3>
+                        <p>${category.description}</p>
+                    </div>
+                </div>
+            `).join('');
+
+            // Render Featured Products
+            const productsContainer = document.getElementById('products-container');
+            productsContainer.innerHTML = companyData.products.map(product => `
+                <div class="product-card">
+                    <div class="product-image">
+                        ${product.image ? `<img src="${product.image}" alt="${product.name}" onerror="this.parentElement.className='product-placeholder'; this.parentElement.innerHTML='📦'">` : '<div class="product-placeholder">📦</div>'}
+                    </div>
+                    <div class="product-info">
+                        <h4>${product.name}</h4>
+                        <p>${product.description}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Load data when page loads
+        document.addEventListener('DOMContentLoaded', loadCompanyData);
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
